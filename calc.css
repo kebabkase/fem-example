@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.entire-calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc-container {
+  width: 20%;
+}
+
+.first-box {
+  background-color: black;
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid black;
+}
+
+.text-style-button-type-1 {
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #d8d9db;
+}
+
+.text-style-button-type-2 {
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #df974c;
+}
+
+.zero {
+  color: white;
+  padding-right: 10px;
+}
+
+.second-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.clear-box {
+  width: 50%;
+  border-right: 2px solid black;
+}
+
+.back-arrow-box {
+  width: 25%;
+  border-right: 2px solid black;
+}
+
+.divide-box {
+  width: 25%;
+}
+
+.third-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.number-box {
+  width: 25%;
+  border-right: 2px solid black;
+}
+.multiply {
+  width: 25%;
+}
+
+.fourth-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.subtract {
+  width: 25%;
+}
+
+.fifth-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.add {
+  width: 25%;
+}
+
+.sixth-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.zero-number {
+  width: 75%;
+}
+
+.equals {
+  width: 25%;
+}
